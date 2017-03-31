@@ -72,7 +72,7 @@ public class HomeActivity extends Activity{
     }
 
     /**
-     * 设置密码
+     * 设置密码22
      */
     private void showDialong() {
         String psd = SpUtil.getString(this, ConstantValue.MOBILE_SAFE_PSD, "");
