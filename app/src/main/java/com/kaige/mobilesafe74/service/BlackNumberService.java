@@ -22,7 +22,6 @@ public class BlackNumberService extends Service{
 
     @Override
     public void onCreate() {
-
         //拦截短信
         IntentFilter intentFilter = new IntentFilter();
         intentFilter.addAction("android.provider.Telephony.SMS_RECEIVED");
